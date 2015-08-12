@@ -5,10 +5,12 @@
 
 #### Description
 
-Prevent my Dell Vostro from overheating
-A simple script, stupid as it is, just running every minute in crontab.  
+Prevent my Dell Vostro from overheating. It is/was a hot summer, my laptop is quite old and
+the Dell BIOS isn't a masterpiece either...
 
-It triggers full fan via "i8kfan 2 2" once both cores reach 130 combined.
+It is a simple script, stupid as it is, it is just running every minute via crontab.  
+
+It triggers full fan via "i8kfan 2 2" once both cores reach defined threshold combined.
 Goes down to medium "i8kfan 1 1" once it is below.
 Tested on Fedora 22 and 3350, dual core model (script is hard coded for 2 cores).
 
