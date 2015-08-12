@@ -37,7 +37,11 @@ $ cat /tmp/hostro.log
 ```
 
 
-#### License
+#### License & Legal
+
+Dell and the Dell logo are trademarks of Dell Computer Corporation. The author is not affiliated with Dell in any way.
+Script is released under:
+
 [MIT](https://www.tldrlegal.com/l/mit)
 
 
